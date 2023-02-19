@@ -7,3 +7,26 @@
   font-family: 'Inter';
 }
 
+@media screen and (max-width: 1279px) {
+    .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    max-width: 1023px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .page {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    max-width: 320px;
+  }  
+}
