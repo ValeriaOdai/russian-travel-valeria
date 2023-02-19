@@ -1,0 +1,7 @@
+.cover__container {
+  width: 100%;
+  min-height: 740px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+}

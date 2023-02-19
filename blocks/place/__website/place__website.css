@@ -1,0 +1,8 @@
+.place__website {
+  grid-area: url;
+  max-height: 46px;
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
