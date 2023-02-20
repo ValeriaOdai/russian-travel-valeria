@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  list-style: none;
 }
 
 @media screen and (max-width: 1279px) {
