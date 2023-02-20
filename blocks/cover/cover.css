@@ -4,10 +4,17 @@
   max-width: 1184px;
   margin: auto;
   text-align: center;
-  min-height: 740px;
+  height: 740px;
   box-sizing: border-box;
   position: relative;
   z-index: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: 100%;
+    height: 640px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -16,15 +23,10 @@
   }
 }
 
-
-
-.cover__container {
-  width: 100%;
-
-}
-
 @media screen and (max-width: 767px) {
-  .cover__container {
-    min-height: 200px;
+  .cover {
+    max-width: 767px;
+    height: 200px;
+    margin: 0;
   }
 }

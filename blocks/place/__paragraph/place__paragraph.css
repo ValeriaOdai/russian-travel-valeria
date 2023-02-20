@@ -6,10 +6,27 @@
   line-height: 1.63;
   color: #FFFFFF;
   grid-area: text;
+  margin: 0 0 26px 0;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
+    margin: 0 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: 288px;
+    margin: 0 16px 25px;
+  }
+
+  .place__paragraph:last-child {
+    margin: 0 16px 0;
   }
 }

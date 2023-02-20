@@ -6,12 +6,12 @@
   margin: 0;
 }
 
+
 @media screen and (max-width: 767px) {
   .footer__menu {
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 248px;
   }
 }
