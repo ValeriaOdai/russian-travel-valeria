@@ -11,6 +11,10 @@
   margin: 0 auto 80px;
 }
 
+.place:last-child {
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1279px) {
   .place {
     grid-template-columns: 440px 1fr;
