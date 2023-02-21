@@ -1,18 +1,17 @@
 .places {
-  max-width: 928px;
+  width: calc(100% - 2*148px);
   margin: 92px auto 92px;
 }
 
 @media screen and (max-width: 1279px) {
   .places {
-    max-width: 928px;
-    margin: 107px auto 77px;
+    width: calc(100% - 2*48px);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
-    max-width: 720px;
+    width: calc(100% - 2*24px);
     margin: 88px auto 90px;
   }
 }
